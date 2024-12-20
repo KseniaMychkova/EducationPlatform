@@ -33,7 +33,7 @@ The application will open in your browser at http://localhost:3000.
 
 Usage
 
-For Students:
+**For Students:**
 
 Browse and enroll in courses
 
@@ -42,7 +42,7 @@ Complete assignments and quizzes
 Track your progress and performance
 
 
-For Educators:
+**For Educators:**
 
 Create and manage courses
 
@@ -51,14 +51,15 @@ Evaluate student performance
 Engage with students in discussion forums
 
 
-Technologies Used
-HTML: Markup language for creating the structure of web pages
+**Technologies Used**
+**HTML:** Markup language for creating the structure of web pages
 
-CSS: Styling language for designing the user interface
+**CSS:** Styling language for designing the user interface
 
-React: JavaScript library for building user interfaces
+**React:** JavaScript library for building user interfaces
 
-Contributing
+
+**Contributing**
 We welcome contributions! Follow these steps to contribute:
 
 Fork the repository
@@ -78,3 +79,5 @@ Contact
 If you have any questions or suggestions, feel free to reach out at k2606676@gmail.com.
 
 Thank you for using Education Platform! We hope it enhances your learning and teaching experience.
+
+
