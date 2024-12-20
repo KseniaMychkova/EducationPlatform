@@ -44,11 +44,11 @@ Track your progress and performance
 
 **For Educators:**
 
-Create and manage courses
+- Create and manage courses
 
-Evaluate student performance
+- Evaluate student performance
 
-Engage with students in discussion forums
+- Engage with students in discussion forums
 
 
 **Technologies Used**
@@ -60,22 +60,24 @@ Engage with students in discussion forums
 
 
 **Contributing**
+
 We welcome contributions! Follow these steps to contribute:
 
-Fork the repository
+- Fork the repository
 
-Create a new branch (git checkout -b feature/your-feature)
+- Create a new branch (git checkout -b feature/your-feature)
 
-Commit your changes (git commit -m 'Add some feature')
+- Commit your changes (git commit -m 'Add some feature')
 
-Push to the branch (git push origin feature/your-feature)
+- Push to the branch (git push origin feature/your-feature)
 
-Open a pull request
+- Open a pull request
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+**Contact**
+
 If you have any questions or suggestions, feel free to reach out at k2606676@gmail.com.
 
 Thank you for using Education Platform! We hope it enhances your learning and teaching experience.
