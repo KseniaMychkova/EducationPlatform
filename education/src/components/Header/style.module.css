@@ -1,8 +1,14 @@
 .header {
-    display: flex;
-    justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
+    background-color: #F6F5F4;
+}
+
+.header .wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header .logo {
@@ -31,6 +37,14 @@
     background-color: transparent;
 }
 
+.header .log a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16.55px;
+    font-weight: 700;
+    line-height: 16.55px;
+}
+
 .header .sign {
     background-color: #2B788B;
     border-radius: 14.19px;
@@ -39,4 +53,12 @@
     padding: 13.01px 21.28px;
     color: #FFFFFF;
 
+}
+
+.header .sign a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16.55px;
+    font-weight: 700;
+    line-height: 16.55px;
 }

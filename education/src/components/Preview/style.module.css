@@ -1,9 +1,13 @@
 .preview {
+    background-color: #F6F5F4;
+}
+
+.preview .wrapper {
     display: flex;
     justify-content: space-between;
-
     align-items: center;
-
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 .preview_description {
@@ -19,7 +23,7 @@
     line-height: 16px;
     color: #2B788B;
     text-transform: uppercase;
-    
+
 }
 
 .preview h1 {
@@ -28,7 +32,7 @@
     font-weight: 400;
     line-height: 67.2px;
     letter-spacing: -0.04em;
-    
+
 }
 
 .text {
@@ -42,14 +46,14 @@
     /* padding-top: 18px; */
 }
 
-.preview  button {
-background-color: #C3DCE3;
-color: #2B788B;
-border-radius: 100px;
-border: none;
-width: 165px;
-height: 44px;
-margin-bottom: 18px;
+.preview button {
+    background-color: #C3DCE3;
+    color: #2B788B;
+    border-radius: 100px;
+    border: none;
+    width: 165px;
+    height: 44px;
+    margin-bottom: 18px;
 }
 
 .preview_img_boy {

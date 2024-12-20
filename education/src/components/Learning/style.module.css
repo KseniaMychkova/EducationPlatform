@@ -1,4 +1,99 @@
 .learning {
+    padding-top: 77.5px;
+    padding-bottom: 77.5px;
+}
+
+.learning .wrapper {
     display: flex;
-    gap: 119.95px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.wrapper .image {
+    background-image: url(./assets/girl-with-tablet.png);
+    width: 580px;
+    height: 425px;
+}
+
+.wrapper .description {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 480px;
+}
+
+.description h2 {
+    font-family: Dela Gothic One;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.description p {
+    color: #757575;
+}
+
+.description .buttons {
+    display: flex;
+    gap: 21.1px;
+    padding-top: 33px;
+}
+
+.sprint {
+    background-color: #F2D4DC;
+    width: 129px;
+    height: 112px;
+    border-radius: 14px;
+    border: none;
+    color: #945069;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.sprint .text_button {
+    vertical-align: bottom;
+    align-self: flex-end;
+    position: absolute;
+    left: 34px;
+    bottom: 14px;
+}
+
+.sprint .sneakers {
+    background-image: url(./assets/sneakers.png);
+    width: 131px;
+    height: 106px;
+    position: absolute;
+    top: -33px;
+}
+
+.tasks {
+    background-color: #C3DCE3;
+    width: 172px;
+    height: 112px;
+    border-radius: 14px;
+    border: none;
+    color: #2B788B;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.tasks .speaker {
+    background-image: url(./assets/speaker.png);
+    width: 91px;
+    height: 106px;
+    position: absolute;
+    top: -33px;
+    left: 41px;
+}
+
+.tasks .text_button {
+    position: absolute;
+    left: 52px;
+    bottom: 14px;
 }
