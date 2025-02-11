@@ -1,20 +1,22 @@
 import style from '../Footer/style.module.css'
+import FooterLinks from './FooterLinks';
+const arrLearningLinks = ['Home', 'Textbook', 'Statistics', 'Sprint'];
+const arrPeopleLinks = ['Alex', 'Gabriel', 'Marcus']
+
 
 function Footer() {
+    const learningLinks = arrLearningLinks.map(el => <FooterLinks el={el}></FooterLinks>)
+    const peopleLinks = arrPeopleLinks.map(el => <FooterLinks el={el}></FooterLinks>)
+
     return (
         <footer className={style.footer}>
             <div className={style.wrapper}>
                 <div className={style.links}>
                     <div className={style.learning_links}>
-                        <a href='#!'>Home</a>
-                        <a href='#!'>Textbook</a>
-                        <a href='#!'>Statistics</a>
-                        <a href='#!'>Sprint</a>
+                        {learningLinks}
                     </div>
                     <div className={style.people_links}>
-                        <a href='#!'>Alex</a>
-                        <a href='#!'>Gabriel</a>
-                        <a href='#!'>Marcus</a>
+                        {peopleLinks}
                     </div>
                 </div>
                 <div className={style.networks}>

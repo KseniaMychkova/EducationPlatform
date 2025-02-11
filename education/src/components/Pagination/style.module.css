@@ -1,0 +1,21 @@
+.pagination {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.paginationCircle {
+    border: 3px solid #5996A5;
+    border-radius: 100px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginationContent {
+    color: #5996A5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}

@@ -1,0 +1,5 @@
+const arr = [{ id: 1, title: 'JavaScript', descroption: 'JavaScript is a practical course where students learn the basics of JavaScript. It covers variables, operators, conditionals, loops, functions, and data manipulation.', lessons: '' }, 
+    { id: 2, title: 'TypeScript', descroption: 'TypeScript is a course that provides an introduction to TypeScript. Students will learn about TypeScript\'s key features, such as type annotations, interfaces, classes, and modules', lessons: ''  }, 
+    { id: 3, title: 'Python', descroption: 'Students will learn about variables, data types, conditionals, loops, functions, and file handling. Through hands-on exercises and projects, students will gain proficiency in writing Python code and solving real-world problems.', lessons: ''  }]
+
+    export default arr

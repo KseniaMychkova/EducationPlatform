@@ -1,7 +1,10 @@
 import style from '../About/style.module.css'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import LessonItem from './LessonItems'
+const arrOfItem = ['Getting Started with TypeScript', 'Type Annotations', 'Interfaces and Classes', 'Modules', 'Advanced TypeScript Features']
 
 function About() {
+    const lessonsItem = arrOfItem.map(el => <LessonItem el={el}></LessonItem>)
     return (
         <section className={style.aboutCourses}>
             <div className={style.course}>
@@ -17,11 +20,7 @@ function About() {
             <div className={style.lessons}>
                 <h3>15 lessons</h3>
                 <ol>
-                    <li>Test</li>
-                    <li>Test</li>
-                    <li>Test</li>
-                    <li>Test</li>
-                    <li>Test</li>
+                    {lessonsItem}
                 </ol>
             </div>
         </section>

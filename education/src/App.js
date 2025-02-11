@@ -4,6 +4,7 @@ import Login from './pages/Login/index'
 import Register from './pages/Register/index'
 import Courses from './pages/Courses/index'
 import AboutCourse from './pages/AboutCourse/index'
+import ErrorPage from './pages/ErrorPage'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path='/reg' element={<Register></Register>}></Route>
       <Route path='/courses' element={<Courses></Courses>}></Route>
       <Route path='/about' element={<AboutCourse></AboutCourse>}></Route>
+      <Route path='/error' element={<ErrorPage></ErrorPage>}></Route>
     </Routes>
   );
 }
