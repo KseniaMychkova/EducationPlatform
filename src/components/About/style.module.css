@@ -1,0 +1,119 @@
+.aboutCourses {
+    display: flex;
+    gap: 10px;
+    background-color: #F6F5F4;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.aboutCourses .course {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 40px;
+    gap: 30px;
+    width: 100%;
+    max-width: 572px;
+
+}
+
+.course .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.course .container .image {
+    background-image: url(./assets/book.svg);
+    height: 150px;
+    width: 239px;
+}
+
+.course .container .text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 253px;
+}
+
+.text h3 {
+    font-family: Dela Gothic One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.text p {
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #757575;
+
+}
+
+.course button {
+    background-color: #C3DCE3;
+    border: none;
+    border-radius: 100px;
+    width: 143px;
+    height: 44px;
+    text-align: center;
+}
+
+.course button a {
+    color: #2B788B;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.aboutCourses .lessons {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    display: flex;
+    gap: 30px;
+    padding: 40px 73.5px;
+}
+
+.lessons h3 {
+    font-family: Dela Gothic One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+.lessons ol {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+@media screen and (max-width: 950px) {
+    .aboutCourses {
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutCourses .lessons{
+        width: 100%;
+        max-width: 572px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .course .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .course .container .text{
+        max-width: 400px;
+    }
+}

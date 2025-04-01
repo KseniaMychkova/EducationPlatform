@@ -1,0 +1,92 @@
+.preview {
+    background-color: #F6F5F4;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.preview .wrapper {
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.preview_description {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 500px;
+}
+
+.preview .course {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #2B788B;
+    text-transform: uppercase;
+}
+
+.preview h1 {
+    font-family: Dela Gothic One;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 67.2px;
+    letter-spacing: -0.04em;
+}
+
+.text {
+    color: #757575;
+}
+
+.count_of_students {
+    background-image: url(./assets/count-of-students.png);
+    width: 163px;
+    height: 65px;
+}
+
+.preview button {
+    background-color: #C3DCE3;
+    color: #2B788B;
+    border-radius: 100px;
+    border: none;
+    width: 165px;
+    height: 44px;
+    margin-bottom: 18px;
+}
+
+.preview_img_boy {
+    background-image: url(./assets/boy.png);
+    width: 520px;
+    height: 507.28px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 830px) {
+    .preview h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .preview .wrapper{
+        flex-direction: column;
+    }
+    .preview_img_boy{
+        display: none;
+    }
+
+    .preview h1::before {
+        content: ''; 
+        display: block; 
+        width: 270px; 
+        height: 200px;
+        background-image: url(./assets/boy.png);
+        background-size: contain; 
+        background-repeat: no-repeat; 
+        margin: 0 auto; 
+
+    }
+
+}

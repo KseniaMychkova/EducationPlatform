@@ -1,0 +1,90 @@
+.footer {
+    background-color: #F6F5F4;
+    color: #757575;
+    padding: 40px 20px;
+}
+
+.footer .wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .links {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1.2px solid #E0E0E0;
+}
+
+.footer .links a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    color: #757575;
+
+
+}
+
+.learning_links {
+    display: flex;
+    gap: 30px;
+}
+
+.people_links {
+    display: flex;
+    gap: 30px;
+}
+
+.networks {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.networks div {
+    display: flex;
+    gap: 30px;
+}
+
+.networks p {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.networks div .git {
+    background-image: url(./assets/git.png);
+    width: 30px;
+    height: 24px;
+}
+
+.networks div .gt {
+    background-image: url(./assets/gt.png);
+    width: 30px;
+    height: 24px;
+}
+
+.networks div .youtube {
+    background-image: url(./assets/youtube.png);
+    width: 30px;
+    height: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .links {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .learning_links {
+        justify-content: center;
+    }
+    .people_links{
+        justify-content: center;
+    }
+    .networks{
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+}
